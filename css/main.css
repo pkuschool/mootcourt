@@ -1813,7 +1813,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c79cff;
+  background: #2e74e9;
 }
 .feed-link,
 .chat {
@@ -2546,19 +2546,29 @@ embed {
   margin-top: 15px;
   padding: 0px;
 }
-.site-meta {
-  background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
-}
 .site-title {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
-  color: #000;
+  color: #fff;
   line-height: 40px;
   letter-spacing: 3px;
   padding-bottom: 10px;
 }
+.site-subtitle {
+  font-size: 15px;
+  color: #fff;
+}
+.brand {
+  background-color: rgba(255,255,255,0);
+  margin-top: 15px;
+  padding: 0px;
+}
 .container {
-  background-color: rgba(0,0,0,0.15);
+  background-color: rgba(0,0,0,0.1);
+}
+.header {
+  background: url("http://ww2.sinaimg.cn/large/006tNc79ly1g35luzxjefj30rs05pwer.jpg");
+  background-size: cover;
 }
 .header-inner {
   padding-top: 0px;
@@ -2573,11 +2583,26 @@ embed {
 .post-button {
   margin-top: 10px;
 }
+body {
+  background: url("http://ww3.sinaimg.cn/large/006tNc79ly1g35jbbqsazj30nb0fh4hl.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  opacity: 0.9;
+}
+.main-inner {
+  background: #fff;
+  opacity: 0.95;
+}
+.header-inner {
+  opacity: 0.7;
+}
 .menu {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: rgba(255,255,255,0.75);
+  background-color: rgba(255,255,255,0.8);
   box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
 }
 .menu .menu-item {
@@ -2595,6 +2620,15 @@ embed {
 }
 .posts-expand .post-meta {
   margin: 10px 0px 20px 0px;
+}
+.post {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 18px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.8);
+}
+.posts-expand .post-title-link::before {
+  background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
 }
 .post-button .btn {
   color: #555 !important;
@@ -2771,10 +2805,10 @@ h2.about-title {
 .sidebar-nav li {
   font-size: 15px;
   font-weight: bold;
-  color: #07b39b;
+  color: #fff;
 }
 .sidebar-nav li:hover {
-  color: #a166ab;
+  color: #fff;
 }
 .sidebar-nav .sidebar-nav-active {
   color: #07b39b;
