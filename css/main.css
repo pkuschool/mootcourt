@@ -1739,9 +1739,6 @@ pre .javascript .function {
   border: 2px solid #333;
   opacity: 1;
 }
-.site-author-image {
-  border-radius: 100%;
-}
 .site-author-name {
   margin: 5px 0 0;
   text-align: center;
@@ -1775,7 +1772,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffaa34;
+  background: #00eec6;
 }
 .feed-link,
 .chat {
@@ -2535,9 +2532,6 @@ embed {
 .post-button {
   margin-top: 10px;
 }
-body {
-  color: #000;
-}
 .menu {
   text-align: center;
   margin-top: 0px;
@@ -2576,7 +2570,7 @@ body {
   border-radius: 3px;
   font-size: 15px;
   box-shadow: inset 10px 10px 10px 10px rgba(0,0,0,0.35);
-  background-image: linear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
+  background-image: urllinear-gradient(90deg, #a166ab 0%, #ef4e7b 25%, #f37055 50%, #ef4e7b 75%, #a166ab 100%);
 }
 .posts-expand .post-eof {
   margin: 0px;
